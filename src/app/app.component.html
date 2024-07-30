@@ -1,0 +1,64 @@
+
+
+<main class="main">
+ <!-- <div>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+      <h4>APLICACION DE AUTOMOVILES</h4>
+      <ul class="nav nav-pills mx-3">
+      <li ><a class='nav-link' routerlink="/inicio">Inicio</a></li>
+      <li ><a class='nav-link' routerlink="/autos">Automoviles</a></li>
+      <li ><a class='nav-link' routerlink="/clientes">Clientes</a></li>  
+
+    </ul>  
+    </nav>-->
+    <!--<div class="collapse navbar-collapse" id="navbarNew">
+      <h4>APLICACION DE AUTOMOVILES</h4>
+      <ul class="navbar nav">
+      <li class="class-item">
+        <a class='nav-link active'aria-current="page" [routerLink]="['/home']">Inicio</a>
+      </li>
+      <li class="class-item">
+        <a class='nav-link' [routerLink]="['/vehiculos']">Vehiculos</a>
+      </li>
+
+    </ul>  
+  </div>-->
+  <div>
+    <nav>
+      <h4>APLICACION DE AUTOMOVILES</h4>
+      <ul>
+        <li><a routerLink="Home" routerLinkActive="active">INICIO</a></li>
+        <li><a routerLink="Vehiculos"routerLinkActive="active">AUTOMOVILES</a></li>
+        <li><a routerLink="Clientes"routerLinkActive="active">CLIENTES</a></li>
+        
+
+      <!--<li ><a routerLink="/inicio">Inicio</a></li>
+      <li ><a routerlink="/autos">Automoviles</a></li>
+      <li ><a routerlink="/clientes">Clientes</a></li>-->  
+
+    </ul>  
+    </nav>
+    
+      
+    </div>
+
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+  <!--<div class="content">
+    <app-PagListaVehiculos></app-PagListaVehiculos>
+    
+  </div> --> 
+        
+</main>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+<router-outlet />
